@@ -1,1 +1,1 @@
-# scenaty
+# scenary
