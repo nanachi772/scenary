@@ -213,7 +213,7 @@ h2 {
 }
 
 /* Careea and job history のレイアウトを調整 */
-.clearfix;after {
+.clearfix:after {
   content: "";
   display: block;
   clear: both;
