@@ -247,3 +247,85 @@ table {
   margin-top: 0;
   padding: 0;
 }
+
+/* portfolio 背景画像の設定 */
+#portfolio {
+  background-image: url(../images/bg-portfolio1.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+/* portfolio main area 調整 */
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+/* portfolio sidebarの調整 */
+.sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Bitter' , 'serif'
+}
+
+/* portfolio リンクがあることを直感的に認識できるようマウスカーソルを載せたら半透明になるようにする */
+a img:hover {
+  opacity: 0.8;
+}
+
+/* sidebarの空白の間隔や色の調整 */
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul a {
+  color: #333333;
+}
+
+/* Photograph 背景画像の設定 */
+#photograph {
+  background-image: url(../images/bg-photograph.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+/* photograph 写真配置の設定 */
+#photograph .photograph-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#photograph .photograph-list li:nth-child(3n) {
+  margin-right: 0;
+}
+
+#fireworks {
+  background-image: url(../images/bg-fireworks.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+/* fireworks 写真配置の設定 */
+#fireworks .photograph-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#fireworks .photograph-list li:nth-child(3n) {
+  margin-right: 0;
+}
